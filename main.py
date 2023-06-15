@@ -13,8 +13,23 @@ def menu():
     print("9. Quetzal a Dólar")
     print("10. Dólar a Quetzal")
     print("0. Salir")
+import operaciones
 
-    def realizar_operacion(opcion):
+def menu():
+    print("Selecciona una opción:")
+    print("1. Suma")
+    print("2. Resta")
+    print("3. Multiplicación")
+    print("4. División")
+    print("5. Exponenciación")
+    print("6. Raíz cuadrada")
+    print("7. Suma de 5 números")
+    print("8. Residuo")
+    print("9. Quetzal a Dólar")
+    print("10. Dólar a Quetzal")
+    print("0. Salir")
+
+def realizar_operacion(opcion):
     if opcion == 1:
         a = float(input("Ingrese el primer número: "))
         b = float(input("Ingrese el segundo número: "))
@@ -72,3 +87,14 @@ def menu():
         print("Opción inválida. Por favor, ingrese un número válido.")
     
     return True
+
+def main():
+    continuar = True
+
+    while continuar:
+        menu()
+        opcion = int(input("Ingrese una opción: "))
+        continuar = realizar_operacion(opcion)
+
+if __name__ == '__main__':
+    main()
