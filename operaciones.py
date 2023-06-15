@@ -29,3 +29,6 @@ def residuo(a, b):
 
 def quetzal_a_dolar(quetzal):
     return quetzal / 7.91
+
+def dolar_a_quetzal(dolar):
+    return dolar * 7.91
