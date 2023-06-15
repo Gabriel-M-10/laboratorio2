@@ -14,3 +14,6 @@ def division(a, b):
         return a / b
     else:
         return "Error: No se puede dividir entre cero."
+    
+def exponenciacion(a, b):
+    return a ** b
