@@ -23,3 +23,6 @@ def raiz_cuadrada(a):
 
 def suma_5_numeros(a, b, c, d, e):
     return a + b + c + d + e
+
+def residuo(a, b):
+    return a % b
