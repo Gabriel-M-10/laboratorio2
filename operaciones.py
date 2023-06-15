@@ -17,3 +17,6 @@ def division(a, b):
     
 def exponenciacion(a, b):
     return a ** b
+
+def raiz_cuadrada(a):
+    return math.sqrt(a)
