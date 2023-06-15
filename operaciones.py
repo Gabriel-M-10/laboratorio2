@@ -26,3 +26,6 @@ def suma_5_numeros(a, b, c, d, e):
 
 def residuo(a, b):
     return a % b
+
+def quetzal_a_dolar(quetzal):
+    return quetzal / 7.91
