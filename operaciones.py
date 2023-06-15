@@ -20,3 +20,6 @@ def exponenciacion(a, b):
 
 def raiz_cuadrada(a):
     return math.sqrt(a)
+
+def suma_5_numeros(a, b, c, d, e):
+    return a + b + c + d + e
